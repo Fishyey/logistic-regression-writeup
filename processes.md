@@ -68,15 +68,15 @@ $\frac{\partial L}{\partial \theta} = (\hat{y}-y) \cdot \hat{x}$ or $\hat{x}^T \
 Generalizing to the gradient, we get:
 
 $\nabla J(\theta) = \frac{1}{m} X^T (\hat{y}-y)$
- - $X^T= \begin{bmatrix} 1 & 1 & \dots & 1 \\
-  x_1^{(1)} & x_1^{(2)} & \dots & x_1^{(m)} \\
-  \vdots & \vdots & \ddots & \vdots\\
+ -  $X^T= \begin{bmatrix} 1 & 1 & \dots & 1 \\\\
+  x_1^{(1)} & x_1^{(2)} & \dots & x_1^{(m)} \\\\
+  \vdots & \vdots & \ddots & \vdots\\\\
   x_{11}^{(1)} & x_{11}^{(2)} & \dots & x_{11}^{(m)}
   \end{bmatrix} \quad (12 \times m)$
 
- - $(\hat{y}-y)= \begin{bmatrix} \hat{y}^{(1)}-y^{(1)} \\
-  \hat{y}^{(2)}-y^{(2)} \\
-  \vdots \\
+ - $(\hat{y}-y)= \begin{bmatrix} \hat{y}^{(1)}-y^{(1)} \\\\
+  \hat{y}^{(2)}-y^{(2)} \\\\
+  \vdots \\\\
   \hat{y}^{(m)}-y^{(m)}
   \end{bmatrix} \quad (m \times 1)$
 
